@@ -1,0 +1,51 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.banner {
+    background-color: darkgreen;
+    color: lightblue;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.banner h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.logo {
+    max-height: 50px;
+    margin-bottom: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+#moon-info {
+    margin-bottom: 20px;
+}
+
+#moon-phase-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#moon-phase-image {
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+iframe {
+    border: none;
+    margin-top: 20px;
+}
